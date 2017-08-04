@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Macam Macam Burung Hias</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_kacer">Kacer</string>
 </resources>
