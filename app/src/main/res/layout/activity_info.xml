@@ -22,14 +22,13 @@
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        app:srcCompat="@drawable/back"
+        android:layout_height="150dp"
+        android:src="@drawable/spg"
         android:id="@+id/imageView2"
         android:layout_below="@+id/textView3"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="35dp" />
-
+        android:layout_marginTop="5dp" />
     <TextView
         android:text="Nama : Shintiya Puspa Gusmawati"
         android:layout_width="wrap_content"
@@ -44,14 +43,14 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView4"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
+        android:layout_marginTop="1dp"
         android:id="@+id/textView5" />
 
     <TextView
         android:text="Sekolah : SMK Assalaam Bandung"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="1dp"
         android:id="@+id/textView6"
         android:layout_below="@+id/textView5"
         android:layout_centerHorizontal="true" />
