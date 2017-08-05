@@ -13,7 +13,7 @@ public class Menu extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
-        Button kcr = (Button) findViewById(R.id.button);
+        Button kcr = (Button) findViewById(R.id.kacer);
         kcr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View pilih) {

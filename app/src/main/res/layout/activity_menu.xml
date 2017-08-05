@@ -4,7 +4,7 @@
     android:id="@+id/activity_menu"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wp"
+    android:background="@drawable/y"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -26,17 +26,18 @@
         android:id="@+id/textView" />
 
     <Button
-        android:text="Kacer"
-        android:background="@drawable/btt"
+        android:text="Burung Kacer"
+        android:background="#00ffffff"
         android:layout_width="fill_parent"
         android:layout_height="50px"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="36dp"
-        android:id="@+id/button" />
+        android:id="@+id/kacer" />
 
     <Button
         android:text="Button"
+        android:background="#00ffffff"
         android:layout_width="fill_parent"
         android:layout_height="50px"
         android:id="@+id/button2"
@@ -46,6 +47,7 @@
 
     <Button
         android:text="Button"
+        android:background="#00ffffff"
         android:layout_width="fill_parent"
         android:layout_height="50px"
         android:id="@+id/button3"
@@ -55,6 +57,7 @@
 
     <Button
         android:text="Button"
+        android:background="#00ffffff"
         android:layout_width="fill_parent"
         android:layout_height="50px"
         android:layout_below="@+id/button3"
@@ -64,6 +67,7 @@
 
     <Button
         android:text="Button"
+        android:background="#00ffffff"
         android:layout_width="fill_parent"
         android:layout_height="50px"
         android:layout_below="@+id/button4"
