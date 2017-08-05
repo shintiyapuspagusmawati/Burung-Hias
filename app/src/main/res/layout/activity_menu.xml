@@ -27,52 +27,12 @@
 
     <Button
         android:text="Burung Kacer"
+        android:textColor="#fff"
         android:background="#00ffffff"
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="50px"
         android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="36dp"
         android:id="@+id/kacer" />
-
-    <Button
-        android:text="Button"
-        android:background="#00ffffff"
-        android:layout_width="fill_parent"
-        android:layout_height="50px"
-        android:id="@+id/button2"
-        android:layout_below="@+id/button"
-        android:layout_alignLeft="@+id/button"
-        android:layout_alignStart="@+id/button" />
-
-    <Button
-        android:text="Button"
-        android:background="#00ffffff"
-        android:layout_width="fill_parent"
-        android:layout_height="50px"
-        android:id="@+id/button3"
-        android:layout_below="@+id/button2"
-        android:layout_alignLeft="@+id/button2"
-        android:layout_alignStart="@+id/button2" />
-
-    <Button
-        android:text="Button"
-        android:background="#00ffffff"
-        android:layout_width="fill_parent"
-        android:layout_height="50px"
-        android:layout_below="@+id/button3"
-        android:layout_alignRight="@+id/button3"
-        android:layout_alignEnd="@+id/button3"
-        android:id="@+id/button4" />
-
-    <Button
-        android:text="Button"
-        android:background="#00ffffff"
-        android:layout_width="fill_parent"
-        android:layout_height="50px"
-        android:layout_below="@+id/button4"
-        android:layout_alignRight="@+id/button4"
-        android:layout_alignEnd="@+id/button4"
-        android:id="@+id/button5" />
 </RelativeLayout>
 </ScrollView>
