@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_kenari"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/y"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="layouttable.contoh.macammacamburunghias.Kenari">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:text="2. Kenari"
+            android:textColor="#fff"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+        <TextView
+            android:text="
+            Burung kenari merupakan burung dengan bentuk tubuh yang kecil dengan ukuran tinggi sekitar 8 cm dan pajang sekitar 10 - 12cm. Saat ini kenari merupakan salah satu jenis burung yang tidak kalah ramainya dan paling banyak diminati oleh penggemar burung. Apalagi jika sudah mulai berkicau dengan kicauan yang sangat indah dan gacor, itulah yang paling menyenangkan bagi si pemiliknya, apalagi kalo sudah rajin dengan kicauan yang bervariasi atau banyak orang bilang (ngeriwik: bhs. jawa) akan menjadi burung yang paling disukai. Saking banyaknya permintaan di pasar hingga akhirnya beberapa orang banyak yang menernakkannya. Dengan hanya membutuhkan sangkar yang tidak terlalu besar burung kenari sudah dapat diternakkan."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/dua"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="31dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dua"
+            android:layout_marginTop="32dp"
+            android:id="@+id/dua"
+            android:layout_centerHorizontal="true" />
+</RelativeLayout>
+</ScrollView>

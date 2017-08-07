@@ -28,7 +28,25 @@
             android:label="@string/title_activity_web_view" />
         <activity
             android:name=".Info"
-            android:label="@string/title_activity_info"></activity>
+            android:label="@string/title_activity_info" />
+        <activity
+            android:name=".Kenari"
+            android:label="@string/title_activity_kenari" />
+        <activity
+            android:name=".Kacamata"
+            android:label="@string/title_activity_kacamata" />
+        <activity
+            android:name=".Cucakrowo"
+            android:label="@string/title_activity_cucakrowo" />
+        <activity
+            android:name=".Branjangan"
+            android:label="@string/title_activity_branjangan" />
+        <activity
+            android:name=".Ciblek"
+            android:label="@string/title_activity_ciblek" />
+        <activity
+            android:name=".Jalaksuren"
+            android:label="@string/title_activity_jalaksuren"></activity>
     </application>
 
 </manifest>

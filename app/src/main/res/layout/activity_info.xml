@@ -20,15 +20,6 @@
         android:layout_marginTop="1dp"
         android:id="@+id/textView3" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="150dp"
-        android:src="@drawable/spg"
-        android:id="@+id/imageView2"
-        android:layout_below="@+id/textView3"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="5dp" />
     <TextView
         android:text="Nama : Shintiya Puspa Gusmawati"
         android:layout_width="wrap_content"
@@ -54,5 +45,15 @@
         android:id="@+id/textView6"
         android:layout_below="@+id/textView5"
         android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/spg"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp" />
 
 </RelativeLayout>

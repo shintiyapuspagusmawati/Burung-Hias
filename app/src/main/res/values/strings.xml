@@ -4,4 +4,10 @@
     <string name="title_activity_kacer">Kacer</string>
     <string name="title_activity_web_view">webView</string>
     <string name="title_activity_info">Info</string>
+    <string name="title_activity_kenari">Kenari</string>
+    <string name="title_activity_kacamata">Kacamata</string>
+    <string name="title_activity_cucakrowo">Cucakrowo</string>
+    <string name="title_activity_branjangan">Branjangan</string>
+    <string name="title_activity_ciblek">Ciblek</string>
+    <string name="title_activity_jalaksuren">Jalaksuren</string>
 </resources>

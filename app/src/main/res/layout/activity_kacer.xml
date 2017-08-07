@@ -11,9 +11,10 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="layouttable.contoh.macammacamburunghias.Kacer">
-<RelativeLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
     <TextView
         android:text="1. Kacer"
         android:textColor="#fff"
@@ -21,8 +22,8 @@
         android:layout_height="fill_parent" />
 
     <ImageButton
-        android:layout_width="500px"
-        android:layout_height="300px"
+        android:layout_width="wrap_content"
+        android:layout_height="400px"
         android:src="@drawable/satu"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
