@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_muraibatu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/y"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="layouttable.contoh.macammacamburunghias.Muraibatu">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:text="13. Murai Batu"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+        <TextView
+            android:text="
+            Burung murai batu adalah burung berkicau cerdas terbaik yang sangat banyak penggemarnya. Burung murai batu disukai karena elegan dari penampilan dan suaranya serta gaya sombong penampilannya serta hebatnya lagi bisa menirukan suara burung-burung lainnya tanpa meninggalkan suara khasnya. Namun untuk membuat burung murai batu agar rajin berkicau dan gacor memang membutuhkan kesabaran dan keuletan serta banyak cara yang harus dilakukan dalam perawatannya.Jenis-jenis burung Murai Batu dan asal burung Murai Batu yang banyak dikenal di Indonesia adalah Burung Murai Batu Medan, Burung Murai Batu Aceh, Burung Murai Batu Lampung, Burung Murai Batu Aceh, Burung Murai Batu Jambi dan Burung Murai Batu Kalimantan/Borneo. Suara burung Murai Batu sangat merdu dan bervariasi. Burung Murai Batu terutama yang sangat terkenal yaitu murai batu medan adalah salah satu burung penyanyi terbaik yang akui oleh dunia dan dari segi harganyapun bervariasi."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="22dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tigabelas"
+            android:layout_marginTop="38dp"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</ScrollView>

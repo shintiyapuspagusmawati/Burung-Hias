@@ -17,13 +17,12 @@
         android:orientation="vertical">
     <TextView
         android:text="1. Kacer"
-        android:textColor="#fff"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:layout_height="fill_parent"/>
 
     <ImageButton
         android:layout_width="wrap_content"
-        android:layout_height="400px"
+        android:layout_height="wrap_content"
         android:src="@drawable/satu"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -32,12 +31,11 @@
 
     <TextView
         android:text="
-    Pada Kacer Jawa atau bisa juga dibilang Kacer JATIM, memiliki warna hitam yang dominan pada bulu. Hampir Seluruh tubuh berwarna hitam, kecuali pada sayap terdapat warna putih. Penyebarannya mulai dari Seychelles (Afrika), Jawa dan Kalimantan (Indonesia). Kemampuan berkicau sangat baik dan pintar menirukan suara-suara di sekelilingnya. Penampilan sangat atraktif sambil memainkan ekor. Volume suara sedang. Jenis ini juga sangat suka dengan udara panas, apalagi jika sudah gacor, sangatlah akan memukau orang yang melihatnya dan ingin memilikinya dan juga ingin membuat burung kacer miliknya seperti apa yang di lihatnya."
+        Pada Kacer Jawa atau bisa juga dibilang Kacer JATIM, memiliki warna hitam yang dominan pada bulu. Hampir Seluruh tubuh berwarna hitam, kecuali pada sayap terdapat warna putih. Penyebarannya mulai dari Seychelles (Afrika), Jawa dan Kalimantan (Indonesia). Kemampuan berkicau sangat baik dan pintar menirukan suara-suara di sekelilingnya. Penampilan sangat atraktif sambil memainkan ekor. Volume suara sedang. Jenis ini juga sangat suka dengan udara panas, apalagi jika sudah gacor, sangatlah akan memukau orang yang melihatnya dan ingin memilikinya dan juga ingin membuat burung kacer miliknya seperti apa yang di lihatnya."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:textSize="12dp"
         android:id="@+id/textView2" />
 </RelativeLayout>
 </ScrollView>

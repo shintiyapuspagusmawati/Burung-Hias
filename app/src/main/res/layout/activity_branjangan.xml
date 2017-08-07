@@ -16,7 +16,6 @@
         android:orientation="vertical">
     <TextView
         android:text="4. Branjangan"
-        android:textColor="#fff"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"/>
 
@@ -25,7 +24,6 @@
         Branjangan mempunyai kicauan yang nyaring dan pandai menirukan suara burung lain. Branjangan merupakan burung persawahan/ladang yang suka hidup di area terbuka berumput. Burung Branjangan adalah burung dari bangsa Passeriformes dari famili Alaudidae yang terkenal dapat bernyanyi dengan indahnya. Kepiawaiannya dalam meniru suara burung lain serta gaya bertarungnya dengan cara mengepakan sayap (istilah : ngeper) semakin menambah kesukaan orang untuk memelihara burung ini."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="12dp"
         android:id="@+id/textView2"
         android:layout_below="@+id/imageView"
         android:layout_alignParentLeft="true"

@@ -16,7 +16,6 @@
             android:orientation="vertical">
         <TextView
             android:text="2. Kenari"
-            android:textColor="#fff"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"/>
 
@@ -25,7 +24,6 @@
             Burung kenari merupakan burung dengan bentuk tubuh yang kecil dengan ukuran tinggi sekitar 8 cm dan pajang sekitar 10 - 12cm. Saat ini kenari merupakan salah satu jenis burung yang tidak kalah ramainya dan paling banyak diminati oleh penggemar burung. Apalagi jika sudah mulai berkicau dengan kicauan yang sangat indah dan gacor, itulah yang paling menyenangkan bagi si pemiliknya, apalagi kalo sudah rajin dengan kicauan yang bervariasi atau banyak orang bilang (ngeriwik: bhs. jawa) akan menjadi burung yang paling disukai. Saking banyaknya permintaan di pasar hingga akhirnya beberapa orang banyak yang menernakkannya. Dengan hanya membutuhkan sangkar yang tidak terlalu besar burung kenari sudah dapat diternakkan."
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="12dp"
             android:id="@+id/textView2"
             android:layout_below="@+id/dua"
             android:layout_alignParentLeft="true"

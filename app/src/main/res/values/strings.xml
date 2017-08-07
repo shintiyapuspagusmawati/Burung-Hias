@@ -10,4 +10,18 @@
     <string name="title_activity_branjangan">Branjangan</string>
     <string name="title_activity_ciblek">Ciblek</string>
     <string name="title_activity_jalaksuren">Jalaksuren</string>
+    <string name="title_activity_cucakhijau">Cucakhijau</string>
+    <string name="title_activity_pancawarna">Pancawarna</string>
+    <string name="title_activity_tledekan">Tledekan</string>
+    <string name="title_activity_aniskembang">Aniskembang</string>
+    <string name="title_activity_anismerah">Anismerah</string>
+    <string name="title_activity_muraibatu">Muraibatu</string>
+    <string name="title_activity_pentet">Pentet</string>
+    <string name="title_activity_gelatik">Gelatik</string>
+    <string name="title_activity_kolibri">Kolibri</string>
+    <string name="title_activity_cipoh">Cipoh</string>
+    <string name="title_activity_lovebird">Lovebird</string>
+    <string name="title_activity_trucukan">Trucukan</string>
+    <string name="title_activity_cucakjenggot">Cucakjenggot</string>
+    <string name="title_activity_platuk">Platuk</string>
 </resources>

@@ -78,6 +78,171 @@ public class Menu extends Activity {
 
             }
         });
+
+        Button js = (Button) findViewById(R.id.jalaksuren);
+        js.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View pilih) {
+                Intent myIntent = new
+                        Intent(pilih.getContext(), Jalaksuren.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
+
+        Button ch = (Button) findViewById(R.id.cucakhijau);
+        ch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View pilih) {
+                Intent myIntent = new
+                        Intent(pilih.getContext(), Cucakhijau.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
+
+        Button pc = (Button) findViewById(R.id.pancawarna);
+        pc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View pilih) {
+                Intent myIntent = new
+                        Intent(pilih.getContext(), Pancawarna.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
+
+        Button tl = (Button) findViewById(R.id.tledekan);
+        tl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View pilih) {
+                Intent myIntent = new
+                        Intent(pilih.getContext(), Tledekan.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
+
+        Button an = (Button) findViewById(R.id.aniskembang);
+        an.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View pilih) {
+                Intent myIntent = new
+                        Intent(pilih.getContext(), Aniskembang.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
+
+        Button am = (Button) findViewById(R.id.anismerah);
+        am.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View pilih) {
+                Intent myIntent = new
+                        Intent(pilih.getContext(), Anismerah.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
+
+        Button mb = (Button) findViewById(R.id.muraibatu);
+        mb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View pilih) {
+                Intent myIntent = new
+                        Intent(pilih.getContext(), Muraibatu.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
+
+        Button pt = (Button) findViewById(R.id.pentet);
+        pt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View pilih) {
+                Intent myIntent = new
+                        Intent(pilih.getContext(), Pentet.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
+
+        Button gl = (Button) findViewById(R.id.gelatik);
+        gl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View pilih) {
+                Intent myIntent = new
+                        Intent(pilih.getContext(), Gelatik.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
+
+        Button kl = (Button) findViewById(R.id.kolibri);
+        kl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View pilih) {
+                Intent myIntent = new
+                        Intent(pilih.getContext(), Kolibri.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
+
+        Button cp = (Button) findViewById(R.id.cipoh);
+        cp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View pilih) {
+                Intent myIntent = new
+                        Intent(pilih.getContext(), Cipoh.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
+
+        Button lb = (Button) findViewById(R.id.lovebird);
+        lb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View pilih) {
+                Intent myIntent = new
+                        Intent(pilih.getContext(), Lovebird.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
+
+        Button tc = (Button) findViewById(R.id.trucukan);
+        tc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View pilih) {
+                Intent myIntent = new
+                        Intent(pilih.getContext(), Trucukan.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
+
+        Button cj = (Button) findViewById(R.id.cucakjenggot);
+        cj.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View pilih) {
+                Intent myIntent = new
+                        Intent(pilih.getContext(), Cucakjenggot.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
+
+        Button pl = (Button) findViewById(R.id.platuk);
+        pl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View pilih) {
+                Intent myIntent = new
+                        Intent(pilih.getContext(), Platuk.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
     }
 
 }

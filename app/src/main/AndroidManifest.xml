@@ -46,7 +46,49 @@
             android:label="@string/title_activity_ciblek" />
         <activity
             android:name=".Jalaksuren"
-            android:label="@string/title_activity_jalaksuren"></activity>
+            android:label="@string/title_activity_jalaksuren" />
+        <activity
+            android:name=".Cucakhijau"
+            android:label="@string/title_activity_cucakhijau" />
+        <activity
+            android:name=".Pancawarna"
+            android:label="@string/title_activity_pancawarna" />
+        <activity
+            android:name=".Tledekan"
+            android:label="@string/title_activity_tledekan" />
+        <activity
+            android:name=".Aniskembang"
+            android:label="@string/title_activity_aniskembang" />
+        <activity
+            android:name=".Anismerah"
+            android:label="@string/title_activity_anismerah" />
+        <activity
+            android:name=".Muraibatu"
+            android:label="@string/title_activity_muraibatu" />
+        <activity
+            android:name=".Pentet"
+            android:label="@string/title_activity_pentet" />
+        <activity
+            android:name=".Gelatik"
+            android:label="@string/title_activity_gelatik" />
+        <activity
+            android:name=".Kolibri"
+            android:label="@string/title_activity_kolibri" />
+        <activity
+            android:name=".Cipoh"
+            android:label="@string/title_activity_cipoh" />
+        <activity
+            android:name=".Lovebird"
+            android:label="@string/title_activity_lovebird" />
+        <activity
+            android:name=".Trucukan"
+            android:label="@string/title_activity_trucukan" />
+        <activity
+            android:name=".Cucakjenggot"
+            android:label="@string/title_activity_cucakjenggot" />
+        <activity
+            android:name=".Platuk"
+            android:label="@string/title_activity_platuk"></activity>
     </application>
 
 </manifest>

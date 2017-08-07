@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_kolibri"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/y"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="layouttable.contoh.macammacamburunghias.Kolibri">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:text="16. Kolibri"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+        <TextView
+            android:text="
+            Ada beberapa jenis burung kolibri di Indonesia yang paling populer, dengan bentuk dan postur tubuh dengan ukuran yang tidak jauh berbeda, berdasarkan jenisnya burung kolibri bisa dibagi menjadi 8, yaitu;
+
+Kolibri Ninja
+
+Kolibri ini yang paling dicari untuk saat ini, karena suaranya yang lebih bervariasi sehingga harganya pun paling mahal untuk sekelas kolibri. Adapun jenis kolibri lainnya diantaranya adalah, Kolibri Wulung, Kolibri Kelapa, Kolibri Hitam, Kolibri Jawa, Kolibri Gunung, Kolibri Tasik, Kolibri Sepah Raja dan tentunya masih ada jenis burung lain lagi dalam perkembangan perburungan yang mungkin suatu saat akan menjadi primadona bagi para poenghobi kicau mania."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="22dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/emambelas"
+            android:layout_marginTop="38dp"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</ScrollView>

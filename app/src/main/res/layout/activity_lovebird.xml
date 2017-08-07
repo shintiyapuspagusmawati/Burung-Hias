@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lovebird"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/y"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="layouttable.contoh.macammacamburunghias.Lovebird">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:text="18. Love Bird"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+        <TextView
+            android:text="
+            Tidak bisa dipungkiri, burung yang satu inipun sudah merambah terkenal sejak beberapa tahun yang lalu, dengan harga yang lumayan tinggi, secara sepintas ukuran burung hampir sama dengan burung parkit namun perbedaan harganya sangatlah jauh. Dengan suara yang unik burung ini bisa menarik para penghobi burung untuk ikut memeliharanya baik yang  sengaja untuk memiliki untuk dijadikan burung perlombaan ataupun hanya sekedar sebagai hewan peliharaan saja."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="22dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/delapanbelas"
+            android:layout_marginTop="38dp"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</ScrollView>
