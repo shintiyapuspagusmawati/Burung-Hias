@@ -21,37 +21,39 @@
         android:id="@+id/textView3" />
 
     <TextView
-        android:text="Nama : Shintiya Puspa Gusmawati"
+        android:text="Sekolah : SMK Assalaam Bandung"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView4"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_marginTop="27dp"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/textView5"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
 
     <TextView
         android:text="Kelas : 12 RPL 1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView5"
         android:layout_below="@+id/textView4"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="1dp"
-        android:id="@+id/textView5" />
+        android:layout_centerHorizontal="true" />
 
     <TextView
-        android:text="Sekolah : SMK Assalaam Bandung"
+        android:text="Nama : Shintiya Puspa Gusmawati"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="1dp"
-        android:id="@+id/textView6"
-        android:layout_below="@+id/textView5"
-        android:layout_centerHorizontal="true" />
+        android:id="@+id/textView4"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp" />
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:src="@drawable/aku"
         android:id="@+id/imageView2"
-        android:layout_above="@+id/textView4"
+        android:layout_below="@+id/textView3"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="30dp" />
+        android:layout_marginTop="26dp" />
 </RelativeLayout>
