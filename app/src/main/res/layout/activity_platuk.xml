@@ -18,19 +18,35 @@
             android:text="21. Platuk"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"/>
-
-        <TextView
-            android:text="
-            Pada beberapa tahun yang lalu ketika orang belum kenal dengan aneka macam hewan peliharaan terutama yang menyangkut tentang burung, burung yang satu ini sama sekali tidak hiraukan oleh orang untuk coba memilikinya sekalipun dikasih oleh orang lain, namun pada akhir-akhir ini dengan berkembangnya peminat burung dari mulai burung yang memang sudah terkenal dengan suara kicauannya yang sangat cantik yang enak didengarkan sehingga dapat memanjakan telinga dan akhirnya ketika orang sudah mulai banyak dikenal oleh para penggemar burung harga burung langsung secara drastis melonjak tinggi seperti murai batu, kacer, cucak hijau, jalak suren, kenari dan juga berbagai jenis burung lain yang sangat banyak kita jumpai.Burung platuk. Burung ini memang dulunya tidak ada orang yang suka, namun karena keunikannya saat ini banyak juga yang menggemari dan memeliharanya baik sekedar untuk dijadikan bahan master burung lain maupun untuk dipelihara sebagai tambahan koleksi burung yang dimilikinya."
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView2"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignBaseline="@+id/btnPLAY"
+            android:layout_alignBottom="@+id/btnPLAY"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignBaseline="@+id/btnSTOP"
+            android:layout_alignBottom="@+id/btnSTOP"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_marginTop="29dp"
             android:layout_below="@+id/imageView"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="22dp" />
+            android:layout_alignParentStart="true" />
 
-        <ImageButton
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/duasatu"
@@ -38,5 +54,15 @@
             android:id="@+id/imageView"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="
+            Pada beberapa tahun yang lalu ketika orang belum kenal dengan aneka macam hewan peliharaan terutama yang menyangkut tentang burung, burung yang satu ini sama sekali tidak hiraukan oleh orang untuk coba memilikinya sekalipun dikasih oleh orang lain, namun pada akhir-akhir ini dengan berkembangnya peminat burung dari mulai burung yang memang sudah terkenal dengan suara kicauannya yang sangat cantik yang enak didengarkan sehingga dapat memanjakan telinga dan akhirnya ketika orang sudah mulai banyak dikenal oleh para penggemar burung harga burung langsung secara drastis melonjak tinggi seperti murai batu, kacer, cucak hijau, jalak suren, kenari dan juga berbagai jenis burung lain yang sangat banyak kita jumpai.Burung platuk. Burung ini memang dulunya tidak ada orang yang suka, namun karena keunikannya saat ini banyak juga yang menggemari dan memeliharanya baik sekedar untuk dijadikan bahan master burung lain maupun untuk dipelihara sebagai tambahan koleksi burung yang dimilikinya."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/btnSTOP"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
     </RelativeLayout>
 </ScrollView>

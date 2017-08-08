@@ -18,19 +18,35 @@
             android:text="20. Cucak Jenggot"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"/>
-
-        <TextView
-            android:text="
-            Burung ini masih termasuk bagian dari burung yang paling banyak dicari juga untuk saat ini. Secara fisik Cucak Jenggot hampir mirip dengan Trucukan dari warna bulu, ukuran badan, dan bentuk lainnya, namun bedanya ada jenggotnya."
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView2"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignBaseline="@+id/btnPLAY"
+            android:layout_alignBottom="@+id/btnPLAY"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignBaseline="@+id/btnSTOP"
+            android:layout_alignBottom="@+id/btnSTOP"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_marginTop="29dp"
             android:layout_below="@+id/imageView"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="22dp" />
+            android:layout_alignParentStart="true" />
 
-        <ImageButton
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/duapuluh"
@@ -38,5 +54,16 @@
             android:id="@+id/imageView"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="
+            Burung ini masih termasuk bagian dari burung yang paling banyak dicari juga untuk saat ini. Secara fisik Cucak Jenggot hampir mirip dengan Trucukan dari warna bulu, ukuran badan, dan bentuk lainnya, namun bedanya ada jenggotnya."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/btnSTOP"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
     </RelativeLayout>
 </ScrollView>

@@ -18,8 +18,34 @@
             android:text="5. Cucak Rowo"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="STOP"
+                    android:id="@+id/btnSTOP"
+                    android:layout_alignBaseline="@+id/btnPLAY"
+                    android:layout_alignBottom="@+id/btnPLAY"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
 
-        <ImageButton
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PAUSE"
+                    android:id="@+id/btnPAUSE"
+                    android:layout_alignBaseline="@+id/btnSTOP"
+                    android:layout_alignBottom="@+id/btnSTOP"
+                    android:layout_centerHorizontal="true" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY"
+                    android:id="@+id/btnPLAY"
+                    android:layout_marginTop="29dp"
+                    android:layout_below="@+id/imageView"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/lima"
@@ -27,15 +53,15 @@
             android:id="@+id/imageView"
             android:layout_centerHorizontal="true" />
 
-        <TextView
-            android:text="
-            Cucak rawa biasa ditemukan di payapaya dan rawa rawa di sekitar sungai yang sepi, atau di tepi hutan. Sering bersembunyi di balik dedaunan dan hanya terdengar suaranya yang khas melengking. Suara lebih berat dan lebih keras dari umumnya cucak dan merbah. Siulan jernih, jelas, berirama baku yang merdu. Kerap kali terdengar bersahut sahutan. Di alam, burung ini memangsa aneka serangga, siput air, dan berbagai buah-buahan yang  lunak seperti buah jenis-jenis beringin. Menyebar di dataran rendah dan perbukitan di Semenanjung Malaya, Sumatra (termasuk Nias), Kalimantan, dan Jawa bagian barat."
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView2"
-            android:layout_below="@+id/imageView"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="22dp" />
-</RelativeLayout>
+                <TextView
+                    android:text="
+                    Cucak rawa biasa ditemukan di payapaya dan rawa rawa di sekitar sungai yang sepi, atau di tepi hutan. Sering bersembunyi di balik dedaunan dan hanya terdengar suaranya yang khas melengking. Suara lebih berat dan lebih keras dari umumnya cucak dan merbah. Siulan jernih, jelas, berirama baku yang merdu. Kerap kali terdengar bersahut sahutan. Di alam, burung ini memangsa aneka serangga, siput air, dan berbagai buah-buahan yang  lunak seperti buah jenis-jenis beringin. Menyebar di dataran rendah dan perbukitan di Semenanjung Malaya, Sumatra (termasuk Nias), Kalimantan, dan Jawa bagian barat."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2"
+                    android:layout_marginTop="18dp"
+                    android:layout_below="@+id/btnSTOP"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+        </RelativeLayout>
 </ScrollView>

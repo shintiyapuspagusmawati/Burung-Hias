@@ -19,19 +19,35 @@
             android:text="15. Gelatik"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"/>
-
-        <TextView
-            android:text="
-            Burung berwarna hitam dan putih dengan postur kecil ini saat ini lagi digandrungi oleh para banyak penghobi burung.Dengan suaranya yang khas yang melengking, sehingga akhirnya sering burung ini dijadikan sebagai burung master untuk isian burung-burung yang lain untuk mengkombinasikan suara burung yang lain biar lebih bervariasi ocehannya."
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView2"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignBaseline="@+id/btnPLAY"
+            android:layout_alignBottom="@+id/btnPLAY"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignBaseline="@+id/btnSTOP"
+            android:layout_alignBottom="@+id/btnSTOP"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_marginTop="29dp"
             android:layout_below="@+id/imageView"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="22dp" />
+            android:layout_alignParentStart="true" />
 
-        <ImageButton
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/limabelas"
@@ -39,5 +55,16 @@
             android:id="@+id/imageView"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="
+            Burung berwarna hitam dan putih dengan postur kecil ini saat ini lagi digandrungi oleh para banyak penghobi burung.Dengan suaranya yang khas yang melengking, sehingga akhirnya sering burung ini dijadikan sebagai burung master untuk isian burung-burung yang lain untuk mengkombinasikan suara burung yang lain biar lebih bervariasi ocehannya."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_marginTop="11dp"
+            android:layout_below="@+id/btnSTOP"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
     </RelativeLayout>
 </RelativeLayout>

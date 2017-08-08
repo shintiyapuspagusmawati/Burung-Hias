@@ -19,19 +19,35 @@
             android:text="11. Anis Kembang"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"/>
-
-        <TextView
-            android:text="
-            Anis Kembang (Zoothera interpres) merupakan salah satu burung favorit para pecinta burung. Selain merdu dan keras burung ini juga lebih sering berkicau.Ciri-ciri burung anis kembang adalah warna bulu yang seperti bercak bintik yang terdiri dari warna hitam dan putih pada sayapnya, sedangkan warna bulu kepala, bentuk paruh yang berpangkal lebar, tebal, besar dan panjang dan berwarna coklat. Anis kembang termasuk tipe burung yang sensitif sehingga membutuhkan kesabaran dan waktu yang untuk memelihara burung ini. Namun burung ini mempunyai sifat manja, sehingga burung ini mudah jinak pada pemiliknya."
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView2"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignBaseline="@+id/btnPLAY"
+            android:layout_alignBottom="@+id/btnPLAY"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignBaseline="@+id/btnSTOP"
+            android:layout_alignBottom="@+id/btnSTOP"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_marginTop="29dp"
             android:layout_below="@+id/imageView"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="22dp" />
+            android:layout_alignParentStart="true" />
 
-        <ImageButton
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/sebelas"
@@ -39,5 +55,16 @@
             android:id="@+id/imageView"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="
+            Anis Kembang (Zoothera interpres) merupakan salah satu burung favorit para pecinta burung. Selain merdu dan keras burung ini juga lebih sering berkicau.Ciri-ciri burung anis kembang adalah warna bulu yang seperti bercak bintik yang terdiri dari warna hitam dan putih pada sayapnya, sedangkan warna bulu kepala, bentuk paruh yang berpangkal lebar, tebal, besar dan panjang dan berwarna coklat. Anis kembang termasuk tipe burung yang sensitif sehingga membutuhkan kesabaran dan waktu yang untuk memelihara burung ini. Namun burung ini mempunyai sifat manja, sehingga burung ini mudah jinak pada pemiliknya."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_marginTop="22dp"
+            android:layout_below="@+id/btnSTOP"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
     </RelativeLayout>
 </ScrollView>

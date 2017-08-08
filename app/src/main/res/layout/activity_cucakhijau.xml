@@ -18,6 +18,42 @@
             android:text="8. Cucak hijau"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignBaseline="@+id/btnPLAY"
+            android:layout_alignBottom="@+id/btnPLAY"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignBaseline="@+id/btnSTOP"
+            android:layout_alignBottom="@+id/btnSTOP"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_marginTop="29dp"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/delapan"
+            android:layout_marginTop="38dp"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
 
         <TextView
             android:text="
@@ -27,18 +63,8 @@ Burung Cucak Ijo atau ada juga disebut Cipo, ada Cipo Jantung dan Cipo Kucat. Je
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView2"
-            android:layout_below="@+id/imageView"
+            android:layout_below="@+id/btnSTOP"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="22dp" />
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/delapan"
-            android:layout_marginTop="38dp"
-            android:id="@+id/imageView"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true" />
+            android:layout_alignParentStart="true" />
     </RelativeLayout>
 </ScrollView>

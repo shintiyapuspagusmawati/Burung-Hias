@@ -10,32 +10,62 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="layouttable.contoh.macammacamburunghias.Kenari">
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
         <TextView
             android:text="2. Kenari"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"/>
 
-        <TextView
-            android:text="
-            Burung kenari merupakan burung dengan bentuk tubuh yang kecil dengan ukuran tinggi sekitar 8 cm dan pajang sekitar 10 - 12cm. Saat ini kenari merupakan salah satu jenis burung yang tidak kalah ramainya dan paling banyak diminati oleh penggemar burung. Apalagi jika sudah mulai berkicau dengan kicauan yang sangat indah dan gacor, itulah yang paling menyenangkan bagi si pemiliknya, apalagi kalo sudah rajin dengan kicauan yang bervariasi atau banyak orang bilang (ngeriwik: bhs. jawa) akan menjadi burung yang paling disukai. Saking banyaknya permintaan di pasar hingga akhirnya beberapa orang banyak yang menernakkannya. Dengan hanya membutuhkan sangkar yang tidak terlalu besar burung kenari sudah dapat diternakkan."
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView2"
-            android:layout_below="@+id/dua"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="31dp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PAUSE"
+                android:id="@+id/btnPAUSE"
+                android:layout_alignBaseline="@+id/btnSTOP"
+                android:layout_alignBottom="@+id/btnSTOP"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PLAY"
+                android:id="@+id/btnPLAY"
+                android:layout_alignBaseline="@+id/btnSTOP"
+                android:layout_alignBottom="@+id/btnSTOP"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
 
-        <ImageButton
+            <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/dua"
             android:layout_marginTop="32dp"
             android:id="@+id/dua"
             android:layout_centerHorizontal="true" />
-</RelativeLayout>
+
+            <TextView
+                android:text="
+                Burung kenari merupakan burung dengan bentuk tubuh yang kecil dengan ukuran tinggi sekitar 8 cm dan pajang sekitar 10 - 12cm. Saat ini kenari merupakan salah satu jenis burung yang tidak kalah ramainya dan paling banyak diminati oleh penggemar burung. Apalagi jika sudah mulai berkicau dengan kicauan yang sangat indah dan gacor, itulah yang paling menyenangkan bagi si pemiliknya, apalagi kalo sudah rajin dengan kicauan yang bervariasi atau banyak orang bilang (ngeriwik: bhs. jawa) akan menjadi burung yang paling disukai. Saking banyaknya permintaan di pasar hingga akhirnya beberapa orang banyak yang menernakkannya. Dengan hanya membutuhkan sangkar yang tidak terlalu besar burung kenari sudah dapat diternakkan."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_marginTop="117dp"
+                android:layout_below="@+id/dua"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STOP"
+                android:id="@+id/btnSTOP"
+                android:layout_below="@+id/dua"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="13dp"
+                android:layout_marginEnd="13dp"
+                android:layout_marginTop="47dp" />
+    </RelativeLayout>
 </ScrollView>

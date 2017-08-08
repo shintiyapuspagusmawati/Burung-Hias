@@ -18,19 +18,35 @@
             android:text="18. Love Bird"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"/>
-
-        <TextView
-            android:text="
-            Tidak bisa dipungkiri, burung yang satu inipun sudah merambah terkenal sejak beberapa tahun yang lalu, dengan harga yang lumayan tinggi, secara sepintas ukuran burung hampir sama dengan burung parkit namun perbedaan harganya sangatlah jauh. Dengan suara yang unik burung ini bisa menarik para penghobi burung untuk ikut memeliharanya baik yang  sengaja untuk memiliki untuk dijadikan burung perlombaan ataupun hanya sekedar sebagai hewan peliharaan saja."
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView2"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignBaseline="@+id/btnPLAY"
+            android:layout_alignBottom="@+id/btnPLAY"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignBaseline="@+id/btnSTOP"
+            android:layout_alignBottom="@+id/btnSTOP"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_marginTop="29dp"
             android:layout_below="@+id/imageView"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="22dp" />
+            android:layout_alignParentStart="true" />
 
-        <ImageButton
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/delapanbelas"
@@ -38,5 +54,15 @@
             android:id="@+id/imageView"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="
+            Tidak bisa dipungkiri, burung yang satu inipun sudah merambah terkenal sejak beberapa tahun yang lalu, dengan harga yang lumayan tinggi, secara sepintas ukuran burung hampir sama dengan burung parkit namun perbedaan harganya sangatlah jauh. Dengan suara yang unik burung ini bisa menarik para penghobi burung untuk ikut memeliharanya baik yang  sengaja untuk memiliki untuk dijadikan burung perlombaan ataupun hanya sekedar sebagai hewan peliharaan saja."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/btnSTOP"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
     </RelativeLayout>
 </ScrollView>

@@ -18,19 +18,35 @@
         android:text="7. Jalak Suren"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"/>
-
-    <TextView
-        android:text="
-        Burung jalak suren berukuran sedang sekitar 24 cm. Bulunya berwarna hitam dan putih. Bagian yang berwarna putih seperti dahi, pipi, garis sayap, tunggir dan perut. Sedangkan bulu di dada, tenggorokan, dan tubuh bagian atas berwarna hitam (coklat pada remaja). Iris mata burung jalak suren berwarna abu-abu. Kulit tanpa bulu disekitar mata berwarna jingga. Paruhnya berwarna merah dengan ujung putih. Sedangkan kaki berwarna kuning. Suaranya seperti teriakan yang ribut, sumbang dan riang. Keistimewaan Jalak suren dilambangkan sebagai burung jinak penjaga rumah. Dengan memelihara burung ini, rumah akan selalu terjaga setiap hari. Mungkin ada benarnya anggapan ini karena jalak suren merupakan burung yang sangat peka. Jika ada orang datang, akan bersuara nyaring dan bervariasi. Bisa dipahami kalau banyak orang yang memelihara burung ini. Memang dibutuhkan kesabaran dan membutuhkan waktu yang cukup, apalagi jika kita merawatnya sejak usia burung masih anakan. "
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView2"
+        android:text="STOP"
+        android:id="@+id/btnSTOP"
+        android:layout_alignBaseline="@+id/btnPLAY"
+        android:layout_alignBottom="@+id/btnPLAY"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAUSE"
+        android:id="@+id/btnPAUSE"
+        android:layout_alignBaseline="@+id/btnSTOP"
+        android:layout_alignBottom="@+id/btnSTOP"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAY"
+        android:id="@+id/btnPLAY"
+        android:layout_marginTop="29dp"
         android:layout_below="@+id/imageView"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="22dp" />
+        android:layout_alignParentStart="true" />
 
-    <ImageButton
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/tujuh"
@@ -38,5 +54,15 @@
         android:id="@+id/imageView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="
+        Burung jalak suren berukuran sedang sekitar 24 cm. Bulunya berwarna hitam dan putih. Bagian yang berwarna putih seperti dahi, pipi, garis sayap, tunggir dan perut. Sedangkan bulu di dada, tenggorokan, dan tubuh bagian atas berwarna hitam (coklat pada remaja). Iris mata burung jalak suren berwarna abu-abu. Kulit tanpa bulu disekitar mata berwarna jingga. Paruhnya berwarna merah dengan ujung putih. Sedangkan kaki berwarna kuning. Suaranya seperti teriakan yang ribut, sumbang dan riang. Keistimewaan Jalak suren dilambangkan sebagai burung jinak penjaga rumah. Dengan memelihara burung ini, rumah akan selalu terjaga setiap hari. Mungkin ada benarnya anggapan ini karena jalak suren merupakan burung yang sangat peka. Jika ada orang datang, akan bersuara nyaring dan bervariasi. Bisa dipahami kalau banyak orang yang memelihara burung ini. Memang dibutuhkan kesabaran dan membutuhkan waktu yang cukup, apalagi jika kita merawatnya sejak usia burung masih anakan. "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/btnSTOP"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
 </RelativeLayout>
 </ScrollView>

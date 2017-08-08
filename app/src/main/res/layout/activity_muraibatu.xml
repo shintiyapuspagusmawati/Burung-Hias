@@ -18,19 +18,35 @@
             android:text="13. Murai Batu"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"/>
-
-        <TextView
-            android:text="
-            Burung murai batu adalah burung berkicau cerdas terbaik yang sangat banyak penggemarnya. Burung murai batu disukai karena elegan dari penampilan dan suaranya serta gaya sombong penampilannya serta hebatnya lagi bisa menirukan suara burung-burung lainnya tanpa meninggalkan suara khasnya. Namun untuk membuat burung murai batu agar rajin berkicau dan gacor memang membutuhkan kesabaran dan keuletan serta banyak cara yang harus dilakukan dalam perawatannya.Jenis-jenis burung Murai Batu dan asal burung Murai Batu yang banyak dikenal di Indonesia adalah Burung Murai Batu Medan, Burung Murai Batu Aceh, Burung Murai Batu Lampung, Burung Murai Batu Aceh, Burung Murai Batu Jambi dan Burung Murai Batu Kalimantan/Borneo. Suara burung Murai Batu sangat merdu dan bervariasi. Burung Murai Batu terutama yang sangat terkenal yaitu murai batu medan adalah salah satu burung penyanyi terbaik yang akui oleh dunia dan dari segi harganyapun bervariasi."
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView2"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignBaseline="@+id/btnPLAY"
+            android:layout_alignBottom="@+id/btnPLAY"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignBaseline="@+id/btnSTOP"
+            android:layout_alignBottom="@+id/btnSTOP"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_marginTop="29dp"
             android:layout_below="@+id/imageView"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="22dp" />
+            android:layout_alignParentStart="true" />
 
-        <ImageButton
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/tigabelas"
@@ -38,5 +54,15 @@
             android:id="@+id/imageView"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="
+            Burung murai batu adalah burung berkicau cerdas terbaik yang sangat banyak penggemarnya. Burung murai batu disukai karena elegan dari penampilan dan suaranya serta gaya sombong penampilannya serta hebatnya lagi bisa menirukan suara burung-burung lainnya tanpa meninggalkan suara khasnya. Namun untuk membuat burung murai batu agar rajin berkicau dan gacor memang membutuhkan kesabaran dan keuletan serta banyak cara yang harus dilakukan dalam perawatannya.Jenis-jenis burung Murai Batu dan asal burung Murai Batu yang banyak dikenal di Indonesia adalah Burung Murai Batu Medan, Burung Murai Batu Aceh, Burung Murai Batu Lampung, Burung Murai Batu Aceh, Burung Murai Batu Jambi dan Burung Murai Batu Kalimantan/Borneo. Suara burung Murai Batu sangat merdu dan bervariasi. Burung Murai Batu terutama yang sangat terkenal yaitu murai batu medan adalah salah satu burung penyanyi terbaik yang akui oleh dunia dan dari segi harganyapun bervariasi."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/btnSTOP"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
     </RelativeLayout>
 </ScrollView>
