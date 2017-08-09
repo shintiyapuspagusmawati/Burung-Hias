@@ -1,28 +1,36 @@
 package layouttable.contoh.macammacamburunghias;
 
 import android.media.MediaPlayer;
+import android.media.MediaPlayer.OnCompletionListener;
 import android.os.Bundle;
-import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
 import java.io.IOException;
 
-public class Pancawarna extends Activity {
+public class Pancawarna extends AppCompatActivity {
+    /**
+     * Called when the activity is first created.
+     */
 
     private Button btnPlay;
     private Button btnPause;
     private Button btnStop;
-    MediaPlayer mp;
+    private MediaPlayer mp;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pancawarna);
+
         mp = new MediaPlayer();
+
         btnPlay = (Button) findViewById(R.id.btnPLAY);
         btnPause = (Button) findViewById(R.id.btnPAUSE);
         btnStop = (Button) findViewById(R.id.btnSTOP);
+
+        stateAwal();
 
         btnPlay.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,6 +41,7 @@ public class Pancawarna extends Activity {
                 btnStop.setEnabled(true);
             }
         });
+
         btnPause.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -47,16 +56,21 @@ public class Pancawarna extends Activity {
             }
         });
     }
-    /** State Awal / Pertama Dijalankan */
-    public void stateAwal(){
+
+    /**
+     * State Awal / Pertama Dijalankan
+     */
+    public void stateAwal() {
         btnPlay.setEnabled(true);
         btnPause.setEnabled(false);
         btnStop.setEnabled(false);
     }
 
-    /** Dijalankan Oleh Tombol Play */
+    /**
+     * Dijalankan Oleh Tombol Play
+     */
     private void play() {
-        /** Memanggil File MP3 "indonesiaraya.mp3" */
+        /** Memanggil File MP3 */
         mp = MediaPlayer.create(this, R.raw.pancawarna);
 
         try {
@@ -71,7 +85,7 @@ public class Pancawarna extends Activity {
         mp.start();
 
         /** Penanganan Ketika Suara Berakhir */
-        mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+        mp.setOnCompletionListener(new OnCompletionListener() {
             @Override
             public void onCompletion(MediaPlayer mp) {
                 stateAwal();
@@ -79,33 +93,36 @@ public class Pancawarna extends Activity {
         });
     }
 
-    /** Dijalankan Oleh Tombol Pause */
-    public void pause(){
-        if(mp.isPlaying()){
-            if(mp!=null){
+    /**
+     * Dijalankan Oleh Tombol Pause
+     */
+    public void pause() {
+        if (mp.isPlaying()) {
+            if (mp != null) {
                 mp.pause();
 
             }
         } else {
-            if(mp!=null){
+            if (mp != null) {
                 mp.start();
 
             }
         }
     }
 
-    /** Dijalankan Oleh Tombol Stop */
-    public void stop(){
+    /**
+     * Dijalankan Oleh Tombol Stop
+     */
+    public void stop() {
         mp.stop();
 
-        try{
+        try {
             mp.prepare();
             mp.seekTo(0);
-        }catch (Throwable t) {
+        } catch (Throwable t) {
             t.printStackTrace();
         }
 
         stateAwal();
     }
-
 }
