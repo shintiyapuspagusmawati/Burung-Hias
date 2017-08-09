@@ -21,198 +21,238 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="19dp"
         android:textSize="20dp"
         android:id="@+id/textView" />
-
     <Button
         android:text="1. Burung Kacer"
         android:textColor="#fff"
         android:background="#00ffffff"
         android:layout_width="wrap_content"
-        android:layout_height="50px"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="36dp"
+        android:layout_height="40dp"
         android:id="@+id/kacer" />
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090"
+        android:layout_width="wrap_content" />
     <Button
         android:text="2. Burung Kenari"
         android:textColor="#fff"
         android:background="#00ffffff"
         android:layout_width="wrap_content"
-        android:layout_height="50px"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="36dp"
+        android:layout_height="40dp"
         android:id="@+id/kenari" />
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090"
+        android:layout_width="wrap_content" />
     <Button
         android:text="3. Burung Kacamata"
         android:textColor="#fff"
         android:background="#00ffffff"
         android:layout_width="wrap_content"
-        android:layout_height="50px"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="36dp"
+        android:layout_height="40dp"
         android:id="@+id/kacamata" />
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090"
+        android:layout_width="wrap_content" />
     <Button
         android:text="4. Burung Branjangan"
         android:textColor="#fff"
         android:background="#00ffffff"
         android:layout_width="wrap_content"
-        android:layout_height="50px"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="36dp"
+        android:layout_height="40dp"
         android:id="@+id/branjangan" />
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090"
+        android:layout_width="wrap_content" />
     <Button
         android:text="5. Burung Cucak Rowo"
         android:textColor="#fff"
         android:background="#00ffffff"
         android:layout_width="wrap_content"
-        android:layout_height="50px"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="36dp"
+        android:layout_height="40dp"
         android:id="@+id/cucakrowo" />
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090"
+        android:layout_width="wrap_content" />
     <Button
         android:text="6. Burung Ciblek"
         android:textColor="#fff"
         android:background="#00ffffff"
         android:layout_width="wrap_content"
-        android:layout_height="50px"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="36dp"
+        android:layout_height="40dp"
         android:id="@+id/ciblek" />
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090"
+        android:layout_width="wrap_content" />
     <Button
         android:text="7. Burung Jalak Suren"
         android:textColor="#fff"
         android:background="#00ffffff"
         android:layout_width="wrap_content"
-        android:layout_height="50px"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="36dp"
+        android:layout_height="40dp"
         android:id="@+id/jalaksuren" />
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090"
+        android:layout_width="wrap_content" />
     <Button
         android:text="8. Burung Cucak Hijau"
         android:textColor="#fff"
         android:background="#00ffffff"
         android:layout_width="wrap_content"
-        android:layout_height="50px"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="36dp"
+        android:layout_height="40dp"
         android:id="@+id/cucakhijau" />
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090"
+        android:layout_width="wrap_content" />
     <Button
         android:text="9. Burung Panca warna"
         android:textColor="#fff"
         android:background="#00ffffff"
         android:layout_width="wrap_content"
-        android:layout_height="50px"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="36dp"
+        android:layout_height="40dp"
         android:id="@+id/pancawarna" />
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090"
+        android:layout_width="wrap_content" />
     <Button
         android:text="10. Burung Tledekan"
         android:textColor="#fff"
         android:background="#00ffffff"
         android:layout_width="wrap_content"
-        android:layout_height="50px"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="36dp"
+        android:layout_height="40dp"
         android:id="@+id/tledekan" />
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090"
+        android:layout_width="wrap_content" />
     <Button
         android:text="11. Burung Anis Kembang"
         android:textColor="#fff"
         android:background="#00ffffff"
         android:layout_width="wrap_content"
-        android:layout_height="50px"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="36dp"
+        android:layout_height="40dp"
         android:id="@+id/aniskembang" />
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090"
+        android:layout_width="wrap_content" />
     <Button
         android:text="12. Burung Anis Merah"
         android:textColor="#fff"
         android:background="#00ffffff"
         android:layout_width="wrap_content"
-        android:layout_height="50px"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="36dp"
+        android:layout_height="40dp"
         android:id="@+id/anismerah" />
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090"
+        android:layout_width="wrap_content" />
     <Button
         android:text="13. Burung Murai Batu"
         android:textColor="#fff"
         android:background="#00ffffff"
         android:layout_width="wrap_content"
-        android:layout_height="50px"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="36dp"
+        android:layout_height="40dp"
         android:id="@+id/muraibatu" />
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090"
+        android:layout_width="wrap_content" />
     <Button
         android:text="14. Burung Pentet"
         android:textColor="#fff"
         android:background="#00ffffff"
         android:layout_width="wrap_content"
-        android:layout_height="50px"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="36dp"
+        android:layout_height="40dp"
         android:id="@+id/pentet" />
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090"
+        android:layout_width="wrap_content" />
     <Button
         android:text="15. Burung Gelatik"
         android:textColor="#fff"
         android:background="#00ffffff"
         android:layout_width="wrap_content"
-        android:layout_height="50px"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="36dp"
+        android:layout_height="40dp"
         android:id="@+id/gelatik" />
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090"
+        android:layout_width="wrap_content" />
     <Button
         android:text="16. Burung Kolibri"
         android:textColor="#fff"
         android:background="#00ffffff"
         android:layout_width="wrap_content"
-        android:layout_height="50px"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="36dp"
+        android:layout_height="40dp"
         android:id="@+id/kolibri" />
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090"
+        android:layout_width="wrap_content" />
     <Button
         android:text="17. Burung Cipoh"
         android:textColor="#fff"
         android:background="#00ffffff"
         android:layout_width="wrap_content"
-        android:layout_height="50px"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="36dp"
+        android:layout_height="40dp"
         android:id="@+id/cipoh"/>
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090"
+        android:layout_width="wrap_content" />
     <Button
         android:text="18. Burung Love Bird"
         android:textColor="#fff"
         android:background="#00ffffff"
         android:layout_width="wrap_content"
-        android:layout_height="50px"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="36dp"
+        android:layout_height="40dp"
         android:id="@+id/lovebird" />
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090"
+        android:layout_width="wrap_content" />
     <Button
         android:text="19. Burung Trucukan"
         android:textColor="#fff"
         android:background="#00ffffff"
         android:layout_width="wrap_content"
-        android:layout_height="50px"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="36dp"
+        android:layout_height="40dp"
         android:id="@+id/trucukan" />
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090"
+        android:layout_width="wrap_content" />
     <Button
         android:text="20. Burung Cucak Jenggot"
         android:textColor="#fff"
         android:background="#00ffffff"
         android:layout_width="wrap_content"
-        android:layout_height="50px"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="36dp"
+        android:layout_height="40dp"
         android:id="@+id/cucakjenggot" />
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090"
+        android:layout_width="wrap_content" />
     <Button
         android:text="21. Burung Platuk"
         android:textColor="#fff"
         android:background="#00ffffff"
         android:layout_width="wrap_content"
-        android:layout_height="50px"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="36dp"
+        android:layout_height="40dp"
         android:id="@+id/platuk" />
+    <View
+        android:layout_height="1dip"
+        android:background="#FF909090"
+        android:layout_width="wrap_content" />
 </LinearLayout>
 </ScrollView>
