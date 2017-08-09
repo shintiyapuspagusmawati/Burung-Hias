@@ -24,7 +24,7 @@ public class Trucukan extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_trucukan);
 
-        mp = new MediaPlayer();  
+        mp = new MediaPlayer();
 
         btnPlay = (Button) findViewById(R.id.btnPLAY);
         btnPause = (Button) findViewById(R.id.btnPAUSE);
