@@ -66,5 +66,12 @@
             android:layout_below="@+id/btnSTOP"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
+        <TextView
+            android:text="Mainkan Suara Burung"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/btnSTOP"
+            android:layout_alignLeft="@+id/imageView"
+            android:layout_alignStart="@+id/imageView" />
     </RelativeLayout>
 </ScrollView>

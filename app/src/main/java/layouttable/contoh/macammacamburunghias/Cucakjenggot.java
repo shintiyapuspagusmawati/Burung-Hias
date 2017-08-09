@@ -23,7 +23,7 @@ public class Cucakjenggot extends Activity {
         btnPlay = (Button) findViewById(R.id.btnPLAY);
         btnPause = (Button) findViewById(R.id.btnPAUSE);
         btnStop = (Button) findViewById(R.id.btnSTOP);
-
+        mp = new MediaPlayer();
         btnPlay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

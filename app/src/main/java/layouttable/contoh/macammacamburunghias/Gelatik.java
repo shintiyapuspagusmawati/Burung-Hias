@@ -19,7 +19,7 @@ public class Gelatik extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gelatik);
-
+        mp = new MediaPlayer();
         btnPlay = (Button) findViewById(R.id.btnPLAY);
         btnPause = (Button) findViewById(R.id.btnPAUSE);
         btnStop = (Button) findViewById(R.id.btnSTOP);
