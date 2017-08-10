@@ -75,5 +75,6 @@
             android:layout_above="@+id/btnSTOP"
             android:layout_alignLeft="@+id/imageView"
             android:layout_alignStart="@+id/imageView" />
+
     </RelativeLayout>
 </ScrollView>
